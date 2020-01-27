@@ -1,19 +1,21 @@
-:root { font:20px/24px "Roboto", sans-serif;}
-body ,
+:root {
+  font: 20px/24px "Roboto", sans-serif;
+}
+body,
 body * {
-    margin: unset;
-    box-sizing: unset;
-    font-size: unset;
-    color: unset;
-    text-decoration: unset;
+  margin: unset;
+  box-sizing: unset;
+  font-size: unset;
+  color: unset;
+  text-decoration: unset;
 }
 
 figcaption {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 figure * {
-    display: block;
+  display: block;
 }
