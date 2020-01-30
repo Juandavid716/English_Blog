@@ -1,21 +1,17 @@
-:root {
-  font: 20px/24px "Roboto", sans-serif;
-}
-body,
-body * {
-  margin: unset;
-  box-sizing: unset;
-  font-size: unset;
-  color: unset;
-  text-decoration: unset;
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600&display=swap");
+
+html {
+  box-sizing: border-box;
 }
 
-figcaption {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+*:before,
+*:after,
+* {
+  box-sizing: inherit;
 }
 
-figure * {
-  display: block;
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
 }
